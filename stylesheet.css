@@ -1,6 +1,27 @@
+* {
+  font-family: "Lora", serif;
+}
 
+img {
+  margin: 10px;
+}
+#imgLast {
+  margin-left: 25px;
+}
+.container1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .img {
-        width: 100%;
-        height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.float-left {
+  float: left;
 }
