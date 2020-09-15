@@ -5,10 +5,14 @@
 
 html,
 body,
-main,
 form {
   height: 100%;
 }
+
+.main {
+  height: auto;
+}
+
 .bg-img {
   background-image: url("bg5.jpg");
 }
