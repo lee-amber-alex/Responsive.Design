@@ -1,27 +1,38 @@
 * {
-  font-family: "Lora", serif;
+  font-family: "Source Sans Pro";
 }
 
-img {
-  margin: 10px;
+
+html,
+body,
+main,
+form {
+  height: 100%;
 }
-#imgLast {
-  margin-left: 25px;
-}
-.container1 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.bg-img {
+  background-image: url("bg5.jpg");
 }
 
-.img {
-  width: 100%;
-  height: auto;
+.header {
+  color: hsla(177, 93%, 28%, 1);
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
 }
 
-.padding {
-  padding: 10px;
+#navAmb {
+  color: white;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
 }
 
-.float-left {
-  float: left;
+footer {
+  background-color: hsla(177, 93%, 28%, 0.616);
+  text-align: center;
+  color: white;
+  
+}
+
+#button {
+  background-color: hsla(177, 93%, 28%, 1);
+  color: white;
 }

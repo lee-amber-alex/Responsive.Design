@@ -1,120 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AAL</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AAL</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet" />
+    </head>
 
-  <body class="body">
-    <nav class="navbar navbar-expand-md navbar-light bg-white">
-      <a
-        class="navbar-brand text-white font-weight-bold active"
-        style="background-color: hsla(177, 93%, 28%, 0.616)"
-        href="index.html"
-        >Amber Alex Lee</a
-      >
+    <body class="bg-img">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <a class="navbar-brand text-white font-weight-bold active" style="background-color: hsla(177, 93%, 28%, 0.616);" href="index.html">Amber Alex Lee</a>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  <!-- list won't move to the right and links don't work
-          https://www.w3schools.com/html/html_links.asp
-        https://getbootstrap.com/docs/4.5/components/navs/-->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">
-              Contact <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="index.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container margin">
-      <form class="col-md-8 " style="background-color: white">
-        <header class="page-header">
-      <h1 class=" header text-left ">Contact</h1>
-    </header>
-    <!-- can't get positing correct in message box or collapse buttons
-      https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp -->
-        <div class="col-md-8">
-          <section class="row">
-            <p class="col-md-12">Name</p>
-          </section>
-          <section class="row">
-            <div class="col-md-12 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html"> Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
             </div>
-          </section>
-            <section class="row">
-              <p class="col-md-12">Email</p>
-            <div class="col-md-12 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </nav>
+
+        <main class="col-md-9">
+            <div class="container py-3 h-60 mt-5" style="background-color: white;">
+                <header class="border-bottom border-grey">
+                    <h1 class="header pl-2 py-2">Contact</h1>
+                </header>
+
+                <form class="col-md-10 form-group">
+                    <section class="form-group">
+                        <label class="col-md-12 mt-2">Name</label>
+                    </section>
+                    <section class="form-group">
+                        <div class="col-md-12">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                        </div>
+                    </section>
+                    <section class="form-group">
+                        <label class="col-md-12 mb-3">Email</label>
+                        <div class="col-md-12">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                        </div>
+                    </section>
+                    <section class="form-group">
+                        <label class="col-md-12">Message</label>
+                    </section>
+                    <section class="form-group">
+                        <textarea class="form-control col-md-12" id="comments" name="comments" placeholder="Message" rows="4"></textarea>
+                    </section>
+                    <section class="form-group">
+                        <div class="col-md-12">
+                            <button class="btn btn-lg mt-3 pl-4 pr-4 rounded-0" id="button" type="submit">Submit</button>
+                        </div>
+                    </section>
+                </form>
             </div>
-          </div>
-        </section>
-          <section class="row">
-            <p class="col-md-12">Message</p>
-          </section>
-          <section class="row">
-          <textarea class="form-control col-md-12" id="comments" name="comments" placeholder="Message" rows="5"></textarea>
-          </section>
-          <section class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" id="button" type="submit">Submit</button>
-            </div>
-          </section>
-      </form>
-    </div>
-<!-- Bootstrap footer not working 
-      https://getbootstrap.com/docs/4.5/examples/sticky-footer/-->
-      <footer class="footer mt-auto py-3 fixed-bottom">
-        <!-- https://getbootstrap.com/docs/4.5/utilities/position/ -->
-        <div class="container ">
-          <span>&#169 Copyright 2020 Amber Alex Lee.</span>
-        </div>
-      </footer>
-  
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"
-      ></script>
-  </body>
+        </main>
+        <footer class="footer mt-auto py-3">
+            <div class="container"></div>
+            <span>&#169 Copyright 2020 Amber Alex Lee.</span>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
 </html>
+

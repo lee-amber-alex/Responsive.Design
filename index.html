@@ -1,139 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AAL</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora&family=PT+Serif&family=Playfair+Display&family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    
-    <link href="sticky-footer-navbar.css" rel="stylesheet" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AAL</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=PT+Serif&family=Playfair+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet" />
+    </head>
 
-  
-  <body class="body">
-    <nav class="navbar navbar-expand-md navbar-light bg-white">
-      <a
-        class="navbar-brand text-white font-weight-bold active"
-        style="background-color: hsla(177, 93%, 28%, 0.616)" id="navAmb"
-        
-        href="index.html"
-        >Amber Alex Lee</a
-      >
+    <body class="bg-img">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <a class="navbar-brand text-white font-weight-bold active" style="background-color: hsla(177, 93%, 28%, 0.616);" id="navAmb" href="index.html">Amber Alex Lee</a>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <!-- list won't move to the right and links don't work
-          https://www.w3schools.com/html/html_links.asp
-        https://getbootstrap.com/docs/4.5/components/navs/-->
-        <ul class="nav navbar-nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html"
-              >Contact <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="index.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- container position doesn't match photo and not properly responisve-->
-    <div class="container margin">
-      <main class="col-md-8" style="background-color: white">
-        <!-- Lost underline on Header 
-        https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp-->
-        <!-- not sure about semantics -->
-        <article>
-          <header class="page-header">
-            <h1 class="header">About Me</h1>
-          </header>
-          <section class="row">
-            <div class="col-md-12">
-              <p>
-                <img
-                  class="float-left padding"
-                  src="hs7.2.jpg"
-                  alt="AmberLee"
-                  width= "200px"
-                  height= "205px"
-                />
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Sapiente quis natus debitis. Ratione iusto dolorem quisquam
-                quaerat sit alias eaque et rem placeat, nemo, corrupti velit,
-                voluptatum reprehenderit sequi id.Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Sapiente quis natus debitis.
-                Ratione iusto dolorem quisquam quaerat sit alias eaque et rem
-                placeat, nemo, corrupti velit, voluptatum reprehenderit sequi
-                id.t remplaceat, nemo, corrupti velit, voluptatum 
-                reprehenderit sequiLorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Sapiente quis
-              </p>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active" href="index.html">About</a>
+                    </li>
+                </ul>
             </div>
-          </section>
-          <section class="row">
-            <div class="col-md-12">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos,
-                amet harum assumenda aliquam accusantium veniam dolorum
-                molestias quo iure tenetur?
-              </p>
+        </nav>
+
+        <main class="col-md-8">
+            <div class="container py-3 h-60 mt-5" style="background-color: white;">
+                <header class="border-bottom border-grey">
+                    <h1 class="header pl-2 py-2">About Me</h1>
+                </header>
+                <section class="row pt-3">
+                    <div class="col-md-12">
+                        <p>
+                            <img class="float-left p-3" src="hs7.2.jpg" alt="AmberLee" width="250px" height="255px" />
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quis natus debitis. Ratione iusto dolorem quisquam quaerat sit alias eaque et rem placeat, nemo, corrupti velit, voluptatum reprehenderit sequi
+                            id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quis natus debitis. Ratione iusto dolorem quisquam quaerat sit alias eaque et rem placeat, nemo, corrupti velit, voluptatum reprehenderit
+                            sequi id.t remplaceat, nemo, corrupti velit, voluptatum reprehenderit sequiLorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quis
+                        </p>
+                    </div>
+                </section>
+                <section class="row pt-2">
+                    <div class="col-md-12">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, amet harum assumenda aliquam accusantium veniam dolorum molestias quo iure tenetur?Quos, amet harum assumenda aliquam accusantium veniam dolorum
+                            molestias quo iure tenetur?
+                        </p>
+                    </div>
+                </section>
             </div>
-          </section>
-        </article>
-      </main>
-    </div>
+        </main>
 
-    <!-- Bootstrap footer not working 
-      https://getbootstrap.com/docs/4.5/examples/sticky-footer/-->
-    <footer class="footer mt-auto py-3 fixed-bottom">
-      <!-- https://getbootstrap.com/docs/4.5/utilities/position/ -->
-      <div class="container ">
-        <span>&#169 Copyright 2020 Amber Alex Lee.</span>
-      </div>
-    </footer>
+        <footer class="footer mt-auto py-3">
+            <div class="container"></div>
+            <span>&#169 Copyright 2020 Amber Alex Lee.</span>
+        </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
 </html>
+
+
