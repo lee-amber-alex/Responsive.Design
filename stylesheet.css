@@ -13,6 +13,10 @@ form {
   height: auto;
 }
 
+.img {
+  width: 100%;
+}
+
 .bg-img {
   background-image: url("bg5.jpg");
 }
@@ -30,7 +34,7 @@ form {
 }
 
 footer {
-  background-color: hsla(177, 93%, 28%, 0.616);
+  background-color: hsla(177, 93%, 28%, 1);
   text-align: center;
   color: white;
   
