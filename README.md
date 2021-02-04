@@ -1,9 +1,27 @@
+
 # Responsive.Design
 
-## Description 
-The purpose of this exercise was to recreate a responsive website using primarily Bootstrap and images that referenced aesthetic guidelines to follow.  This exercise was beneficial for exploring the many styling and structure efficiencies within Bootstrap.  It also helped simulate a real-life on-the-job scenario in which a client requests specific design details for a project. 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+      
+     
+## Description
 
-Below are screenshots of the project for each completed page and the deployable website can be accessed [here](https://lee-amber-alex.github.io/Responsive.Design/).  
+The purpose of this exercise was to recreate a responsive website using primarily Bootstrap and images that referenced aesthetic guidelines to follow.  This exercise was beneficial for exploring the many styling and structure efficiencies within Bootstrap.  It also helped simulate a real-life on-the-job scenario in which a client requests specific design details for a project.  Technologies used: HTML, CSS, Bootstrap.
+
+## Table of Contents
+ 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+ 
+## Installation
+```
+No install required.
+``` 
+
+## Usage
+Visit Responsive.Design [here.](https://lee-amber-alex.github.io/Responsive.Design/)  Access the project repository [here.](https://github.com/lee-amber-alex/Responsive.Design)
 
 ### Resized at 400:
 ![](screenshots/400.aboutme.png)
@@ -24,12 +42,16 @@ I am having issues with the images formatting correctly for the Portfolio page.
 ![](screenshots/992.portfolio.png)
 
 ## Credits
-Below is a list of the resources used to complete this project:  
 
--Formatting and styling using [Bootstrap](https://getbootstrap.com/).  
+Images taken from [Freepik.com](https://www.freepik.com/).  
 
--Images taken from [Freepik.com](https://www.freepik.com/).  
+Fonts take from [Google Fonts](https://fonts.google.com/)
 
--Fonts take from [Google Fonts](https://fonts.google.com/).
+## License
+This project is covered under the MIT License.
+ 
 
-
+## Questions
+- [Email](lee.amber.alex@gmail.com)
+- [Github Page](https://github.com/lee-amber-alex)
+ 
