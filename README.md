@@ -21,7 +21,9 @@ No install required.
 ``` 
 
 ## Usage
-Visit Responsive.Design [here.](https://lee-amber-alex.github.io/Responsive.Design/)  Access the project repository [here.](https://github.com/lee-amber-alex/Responsive.Design)
+Visit Responsive.Design [here.](https://lee-amber-alex.github.io/Responsive.Design/)   
+ 
+Access the project repository [here.](https://github.com/lee-amber-alex/Responsive.Design)
 
 ### Resized at 400:
 ![](screenshots/400.aboutme.png)
